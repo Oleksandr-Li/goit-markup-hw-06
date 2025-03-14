@@ -113,19 +113,19 @@ button {
   color: #2e2f42;
 }
 
-.burger-btn {
+.menu-btn {
   padding: 0;
   border: none;
   background-color: transparent;
 }
 
-.burger-icon {
+.menu-icon {
   display: block;
   fill: #2f2f37;
 }
 
 @media screen and (min-width: 768px) {
-  .burger-btn {
+  .menu-btn {
     display: none;
   }
 
@@ -224,9 +224,9 @@ button {
   }
 }
 
-/* menu */
+/* mobile menu */
 
-.menu {
+.mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -242,13 +242,13 @@ button {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu.is-open {
+.mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
 
-.menu-container {
+.mobile-menu-container {
   position: relative;
   padding-top: 72px;
   padding-bottom: 40px;
@@ -258,18 +258,18 @@ button {
   height: 100%;
 }
 
-.menu-close {
+.mobile-menu-close {
   position: absolute;
   top: 24px;
   right: 24px;
 }
 
-.menu-nav {
+.mobile-menu-nav {
   margin-bottom: auto;
 }
 
 @media screen and (min-width: 768px) {
-  .menu {
+  .mobile-menu {
     display: none;
   }
 }
