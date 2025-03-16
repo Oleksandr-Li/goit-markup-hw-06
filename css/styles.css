@@ -1123,7 +1123,6 @@ img {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    flex-wrap: wrap;
     gap: 2px;
     font-size: 12px;
     line-height: 117%;
